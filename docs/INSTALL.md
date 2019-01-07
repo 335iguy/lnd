@@ -31,8 +31,10 @@
     [`1.11`](https://blog.golang.org/go1.11).
 
 
-    On Linux:
+    On Ubuntu Linux :
     ```
+    sudo add-apt-repository ppa:longsleep/golang-backports
+    sudo apt-get update
     sudo apt-get install golang-1.11-go
     ```
     > Note that golang-1.11-go puts binaries in /usr/lib/go-1.11/bin. If you want them on your PATH, you need to make that change yourself. Alternatively, you can run:
