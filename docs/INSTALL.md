@@ -77,6 +77,10 @@
     [golang download page](https://golang.org/dl/). If one seeks to install
     from source, then more detailed installation instructions can be found
     [here](http://golang.org/doc/install).
+    
+    * **Git:** You'll need git to grab the lnd files from github.
+    
+    Check out how to install git from this page: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
     At this point, you should set your `$GOPATH` environment variable, which
     represents the path to your workspace. By default, `$GOPATH` is set to
